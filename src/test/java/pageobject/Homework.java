@@ -49,7 +49,7 @@ public class Homework {
         Assertions.assertEquals(articlePageCommentsCount, commentsPage, "Wrong comments page");
         LOGGER.info("close Browser");
     }
-
+    // Git
     @AfterEach
     public void closeBrowser() {
         baseFunc.closeBrowser();
