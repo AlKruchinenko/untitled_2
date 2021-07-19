@@ -32,7 +32,7 @@ public class ArticlePage {
             return Integer.parseInt(commentsCountToParse);
         }
     }
-
+//git
     public void openCommentsPage() {
         LOGGER.info("Opening article comments page");
         baseFunc.click(COMMENTS);

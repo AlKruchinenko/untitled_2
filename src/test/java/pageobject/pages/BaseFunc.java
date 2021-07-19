@@ -35,7 +35,7 @@ public class BaseFunc {
         LOGGER.info("Clicking on element by: " + locator);
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
     }
-
+//git
     public void click(WebElement element) {
         LOGGER.info("Clicking on web element");
         wait.until(ExpectedConditions.elementToBeClickable(element)).click();

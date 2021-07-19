@@ -35,7 +35,7 @@ public class HomePage {
 
         return articles.get(id);
     }
-
+//git
     public String getTitle(int id) {
         LOGGER.info("Getting title for article Nr. : 1");
         return baseFunc.getText(getArticleById(id), TITLE);

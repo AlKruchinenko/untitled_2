@@ -19,6 +19,6 @@ public class CommentsPage {
         String commentsToParse = baseFunc.getText(COMMENTS_PAGE);
         return Integer.parseInt(commentsToParse);
 
-
+//git
     }
 }
